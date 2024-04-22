@@ -1,6 +1,6 @@
-#removing the directory
-import os
-file = "Algorithms.txt"
-location= "D:/wipropy/habiba/"
-path = os.path.join(location, file)
-os.remove(path) 
+import re
+
+# getting the match of the string
+search_pattern = re.search('\d+', 'abcd')
+
+print(search_pattern.end())

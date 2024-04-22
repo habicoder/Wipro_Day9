@@ -1,5 +1,5 @@
-import os 
-directory = "Geeks"
-parent = "D:/Pycharm projects/"
-path = os.path.join(parent, directory) 
-os.rmdir(path)
+from datetime import date
+ 
+my_date = date(1996, 12, 11)
+ 
+print("Date passed as argument is", my_date)

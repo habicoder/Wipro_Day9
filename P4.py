@@ -1,8 +1,6 @@
-class Birds:
-    def _init_(self):
-         self.members = ['Sparrow', 'Robin', 'Duck']
-
-    def printMembers(self):
-         print('Printing members of the Birds class')
-         for member in self.members:
-             print('\t%s ' % member)
+#removing the directory
+import os
+file = "Algorithms.txt"
+location= "D:/wipropy/habiba/"
+path = os.path.join(location, file)
+os.remove(path) 

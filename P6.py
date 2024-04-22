@@ -1,3 +1,8 @@
-import os 
-cwd = os.getcwd() 
-print("Current working directory:", cwd) 
+import re
+
+s = 'Readability counts.'
+pattern = r'[aeiou]'
+matches = re.finditer(pattern, s)
+
+for match in matches:
+    print(match)

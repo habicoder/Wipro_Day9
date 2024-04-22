@@ -1,8 +1,7 @@
-class Mammals:
-   def __init__(self):
-       self.members = ['Tiger', 'Elephant', 'Wild Cat']
+import os
+directory = "doss"
+parent_dir = "D:/wipropy/"
+path = os.path.join(parent_dir, directory)
  
-   def printMembers(self):
-       print('Printing members of the Mammals class')
-       for member in self.members:
-           print('\t%s ' % member)
+os.mkdir(path)
+print("Directory '% s' created" % directory)

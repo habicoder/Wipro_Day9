@@ -1,5 +1,5 @@
 class Birds:
-    def _init_(self):
+    def __init__(self):
          self.members = ['Sparrow', 'Robin', 'Duck']
 
     def printMembers(self):

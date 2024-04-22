@@ -1,8 +1,5 @@
-class Mammals:
-   def __init__(self):
-       self.members = ['Tiger', 'Elephant', 'Wild Cat']
- 
-   def printMembers(self):
-       print('Printing members of the Mammals class')
-       for member in self.members:
-           print('\t%s ' % member)
+import os 
+directory = "Geeks"
+parent = "D:/Pycharm projects/"
+path = os.path.join(parent, directory) 
+os.rmdir(path)
